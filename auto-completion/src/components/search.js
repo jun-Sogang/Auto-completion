@@ -3,7 +3,7 @@ import axios from 'axios';
 import SearchBar from './searchbar';
 import Recommend from './recommend';
 
-const URL = '';
+const URL = 'http://localhost:3000/recommend';
 
 export default class Search extends React.Component {
   constructor() {
